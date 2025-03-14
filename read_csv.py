@@ -10,7 +10,7 @@ def extract_csv(_csv):
     copy_rows = []
     date_format = '%Y-%m-%d %H:%M:%S'
 
-    month = int(input("Digite o número que representa o mês para verificar o total de transações.Por exemplo: 1 para Janeiro, 2 para Fevereiro e etc...\n"))
+    month = int(input("Digite o número do mês (1-12) para verificar o total de transações:\n"))
     try:
         print("Lendo arquivo csv...")
         with open(_csv, encoding='utf-8',mode="r") as csvfile:
