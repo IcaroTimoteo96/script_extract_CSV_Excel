@@ -1,2 +1,3 @@
-#Script em python
-Script desenvolvido para extrair dados de um arquivo CSV para um arquivo XLSX
+# Extrair dados de transações financeiras fictícias
+
+Esse script foi desenvolvido para extrair dados de um arquivo CSV para um arquivo XLSX
