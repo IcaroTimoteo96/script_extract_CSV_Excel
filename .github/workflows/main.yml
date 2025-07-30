@@ -2,14 +2,13 @@ name: "pipeline_csv_to_excel"
 on:
   push:
     branches: ["main"]
-  workflow_dispatch:
+  workflow_dispatch: 
 jobs:
   firstjob:
     name: "First Job"
-    runs-on: windows
+    runs-on: windows 
     steps:
       - name: "primeira ação"
-        run: echo "hello first action"
+        run: echo "hello first action" 
       - name: "segunda ação"
-        run: echo "hello second action"
-  
+        run: echo "hello second action" 
