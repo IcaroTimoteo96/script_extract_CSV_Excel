@@ -6,7 +6,7 @@ on:
 jobs:
   firstjob:
     name: "First Job"
-    runs-on: windows 
+    runs-on: windows-latest 
     steps:
       - name: "primeira ação"
         run: echo "hello first action" 
