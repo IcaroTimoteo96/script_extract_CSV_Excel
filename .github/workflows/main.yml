@@ -9,8 +9,7 @@ jobs:
     runs-on: windows
     steps:
       - name: "primeira ação"
-        run:
-          echo "hello first action"
+        run: echo "hello first action"
       - name: "segunda ação"
-        run: "hello second action"
+        run: echo "hello second action"
   
